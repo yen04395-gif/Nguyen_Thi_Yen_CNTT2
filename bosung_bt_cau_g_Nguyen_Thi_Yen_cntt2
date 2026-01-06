@@ -1,0 +1,13 @@
+package Sapxeptangdan;
+import java.util.Scanner;
+import java.util.Arrays;
+//cau g: sap xep mang tang dan
+    static void SapXep(int a[]){
+        for(int i = 0; i < a.length; i++){
+            Arrays.sort(a);
+        }
+    }
+//Cau g
+        SapXep(a);
+        System.out.print("\nMang vua duoc sap xep theo tt tang dan la: ");
+        Xuatmang(a);
